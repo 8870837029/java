@@ -6,20 +6,7 @@ public class Collections {
 
 	public void sample() {
 
-		Set<Integer> si = new LinkedHashSet<Integer>();
-
-		// To add the value in the set
-		si.add(10);
-		si.add(20);
-		si.add(30);
-		si.add(40);
-		si.add(50);
-		si.add(10);
-		si.add(20);
-		si.add(30);
-
-		// To Print the SET Value
-		System.out.println(si);
+		
 
 		// Convert List to Set to avoid duplicates
 		List<Integer> li = new LinkedList<Integer>();
@@ -37,10 +24,9 @@ public class Collections {
 		si1.addAll(li);
 		System.out.println(si1);
 
-		// Enhanced For Loop
 		for (Integer x : si) {
 
-			System.out.println(x);
+			//System.out.println(x);
 		}
 
 	}
